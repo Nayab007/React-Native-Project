@@ -8,7 +8,7 @@ export default function App() {
     <View >
       <View>
           <TextInput/>
-          <Button/>
+          <Button title="ADD"/>
       </View>
       <View>
 
