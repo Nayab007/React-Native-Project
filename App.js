@@ -5,11 +5,18 @@ import { StyleSheet, Text, View, Button, TextInput, } from 'react-native';
 export default function App() {
  
   return (
-    <View style={{padding: 50, width: '80%', height: 300}}>
+    <View style={{
+    padding: 50,
+    flexDirection: 'row',
+    width: '80%',
+     height: 300,
+     justifyContent: 'space-around',
+     alignItems: 'stretch',
+     }}
+     >
        <View style ={{
         backgroundColor: 'salmon',
-        width: 100,
-        height: 100,
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
 
@@ -19,8 +26,7 @@ export default function App() {
     
        <View style ={{
         backgroundColor: 'gray',
-        width: 100,
-        height: 100,
+        flex: 2,
         justifyContent: 'center',
         alignItems: 'center'
 
@@ -29,13 +35,12 @@ export default function App() {
     </View>
        <View style ={{
         backgroundColor: '#223251',
-        width: 100,
-        height: 100,
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
 
       }}>
-      <Text>2</Text>
+      <Text>3</Text>
     </View>
     </View>
   
