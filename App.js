@@ -5,12 +5,8 @@ import { StyleSheet, Text, View, Button, TextInput, } from 'react-native';
 export default function App() {
  
   return (
-    <View style={{padding: 40}}>
-      
-     
-    
-
-      <View style ={{
+    <View style={{padding: 50}}>
+       <View style ={{
         backgroundColor: 'salmon',
         width: 100,
         height: 100,
