@@ -6,13 +6,13 @@ export default function App() {
  
   return (
     <View style={{padding: 40}}>
-      <View>
-          <TextInput placeholder="Today's Goal" style={{borderBottomColor: 'black', borderBottomWidth: 1}}/>
+      <View style={{flexDirection: 'row'}}>
+          <TextInput placeholder="Today's Goal" style={{borderBottomColor: 'black', borderBottomWidth: 2, padding: 10}}/>
           <Button title="ADD"/>
       </View>
-      <View>
+    
 
-      </View>
+      <View/>
     </View>
   );
 }
