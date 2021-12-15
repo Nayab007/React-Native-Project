@@ -11,13 +11,15 @@ export default function App() {
     
 
       <View style ={{
-        backgroundColo: 'salmon',
+        backgroundColor: 'salmon',
         width: 100,
         height: 100,
         justifyContent: 'center',
         alignItems: 'center'
 
-      }}></View>
+      }}>
+        <Text>1</Text>
+      </View>
     </View>
   );
 }
