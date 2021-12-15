@@ -27,6 +27,16 @@ export default function App() {
       }}>
       <Text>2</Text>
     </View>
+       <View style ={{
+        backgroundColor: '#003051',
+        width: 100,
+        height: 100,
+        justifyContent: 'center',
+        alignItems: 'center'
+
+      }}>
+      <Text>2</Text>
+    </View>
     </View>
   
   );
