@@ -6,34 +6,21 @@ export default function App() {
  
   return (
     <View style={styles.screen}>
-       <View style ={{
-        backgroundColor: 'salmon',
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-
-      }}>
-        <Text>1</Text>
-      </View>
+       <View style ={styles.inputContainer}>
+        
+     <TextInput
+       placeholder="Course Goal"
+       style={{
+         width: '80%',
+         borderColor: 'black',
+         borderWidth: 1,
+         padding: 10
+       }}
+      />
     
-       <View style ={{
-        backgroundColor: 'gray',
-        flex: 2,
-        justifyContent: 'center',
-        alignItems: 'center'
-
-      }}>
-      <Text>2</Text>
+      <Button title="ADD" />
     </View>
-       <View style ={{
-        backgroundColor: '#223251',
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-
-      }}>
-      <Text>3</Text>
-    </View>
+    <View/>
     </View>
   
   );
