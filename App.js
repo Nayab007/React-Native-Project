@@ -8,12 +8,7 @@ export default function App() {
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Course Goal"
-          style={{
-            width: '80%',
-            borderColor: 'black',
-            borderWidth: 1,
-            padding: 10,
-          }}
+         style= {styles.input}
         />
 
         <Button title="ADD" />
@@ -32,4 +27,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+
+  input : {
+    width: '80%',
+    borderColor: 'black',
+    borderWidth: 1,
+    padding: 10,
+  }
 });
