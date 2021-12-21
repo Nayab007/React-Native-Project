@@ -5,15 +5,7 @@ import { StyleSheet, Text, View, Button, TextInput, } from 'react-native';
 export default function App() {
  
   return (
-    <View style={{
-    
-    flexDirection: 'row',
-    width: '80%',
-     height: 300,
-     justifyContent: 'space-around',
-     alignItems: 'stretch',
-     }}
-     >
+    <View style={styles.screen}>
        <View style ={{
         backgroundColor: 'salmon',
         flex: 1,
