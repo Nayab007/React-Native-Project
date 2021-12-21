@@ -18,7 +18,7 @@ export default function App() {
 
         <Button title="ADD" />
       </View>
-      <View />
+      <View style={styles.inputContainer}/>
     </View>
   );
 }
