@@ -6,10 +6,7 @@ export default function App() {
   return (
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
-        <TextInput
-          placeholder="Course Goal"
-         style= {styles.input}
-        />
+        <TextInput placeholder="Course Goal" style={styles.input} />
 
         <Button title="ADD" />
       </View>
@@ -28,10 +25,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  input : {
+  input: {
     width: '75%',
     borderColor: 'black',
     borderWidth: 1,
     padding: 10,
-  }
+  },
 });
