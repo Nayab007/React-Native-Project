@@ -6,7 +6,7 @@ export default function App() {
  
   return (
     <View style={{
-    padding: 50,
+    
     flexDirection: 'row',
     width: '80%',
      height: 300,
@@ -48,5 +48,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  
+    screen : {
+      padding
+    }
 });
