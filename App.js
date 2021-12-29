@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'ceter',
+    alignItems: 'center',
   },
 
   input: {
