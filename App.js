@@ -23,7 +23,9 @@ export default function App() {
 
         <Button title="ADD" onPress={addGoalHandler}/>
       </View>
-      <View />
+      <View>
+        
+      </View>
     </View>
   );
 }
