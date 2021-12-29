@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     flexDirection: 'row',
-    justifyContent: 'spaace-between',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
 
