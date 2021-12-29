@@ -21,7 +21,7 @@ export default function App() {
         style={styles.input}
         onChangeText={goalInputHandler} />
 
-        <Button title="ADD" />
+        <Button title="ADD" onPress={addGoalHandler}/>
       </View>
       <View />
     </View>
