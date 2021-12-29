@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
     padding: 50,
   },
   inputContainer: {
-    flexDirection: 'row',
+    flexDirection: 'roow',
     justifyContent: 'space-between',
-    alignItems: 'centerr',
+    alignItems: 'center',
   },
 
   input: {
