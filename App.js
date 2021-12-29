@@ -7,7 +7,8 @@ export default function App() {
 
   const goalInputHandler = (enteredText) => {
     setEnteredGoal(enteredText);
-  }
+  };
+  
   return (
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
