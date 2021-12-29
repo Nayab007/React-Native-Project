@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 
 export default function App() {
+  const [ enteredGoal, setEnteredGoal] = useState('');
   return (
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
-        <TextInput placeholder="Course Goal" style={styles.input} />
+        <TextInput placeholder="Course Goal" onChangeText={} />
 
         <Button title="ADD" />
       </View>
