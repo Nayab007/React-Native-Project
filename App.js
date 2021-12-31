@@ -47,7 +47,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     backgroundColor: '#ccc',
-    borderColor: 'black,'
+    borderColor: 'black',
+    borderWidth: 1
   },
 
   listItem : {
