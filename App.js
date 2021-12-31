@@ -50,5 +50,6 @@ const styles = StyleSheet.create({
 
   listItem : {
     padding: 10,
+    magin: 10,
   }
 });
