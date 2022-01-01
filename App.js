@@ -17,7 +17,7 @@ export default function App() {
   };
 
   const addGoalHandler = () => {
-    setCourseGoals(currentGoals => [...currentGoals, enteredGoal]);
+    setCourseGoals(currentGoals => [...currentGoals, { key: Math.random().toString()}]);
   };
 
   return (
@@ -30,15 +30,15 @@ export default function App() {
 
         <Button title="ADD" onPress={addGoalHandler}/>
       </View>
-      <FlatList data={courseGoals} / >
-          {courseGoals.map((goal) => (
-          <View key={goal} style={styles.listItem}>
-            <Text>{goal}</Text>
-            </View>
-            ))}
+      <FlatList 
+      data={courseGoals}  
+      renderItem={itemData => (
+        <View key={goal} style={styles.listItem} >
+         <Text>{goal}</Text>
      </View>
-  );
-}
+  )}
+  />
+  </View>
 
 const styles = StyleSheet.create({
   screen: {
