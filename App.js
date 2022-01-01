@@ -36,7 +36,7 @@ export default function App() {
       data={courseGoals}  
       renderItem={itemData => (
         <View style={styles.listItem} >
-         <Text>{itemData.item}</Text>
+         <Text>{itemData.item.value}</Text>
      </View>
   )}
   />
