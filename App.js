@@ -30,14 +30,13 @@ export default function App() {
 
         <Button title="ADD" onPress={addGoalHandler}/>
       </View>
-      <FlatList / >
+      <FlatList data={courseGoals} / >
           {courseGoals.map((goal) => (
           <View key={goal} style={styles.listItem}>
             <Text>{goal}</Text>
             </View>
             ))}
-     
-    </View>
+     </View>
   );
 }
 
