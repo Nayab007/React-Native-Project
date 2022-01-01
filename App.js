@@ -17,7 +17,9 @@ export default function App() {
   };
 
   const addGoalHandler = () => {
-    setCourseGoals(currentGoals => [...currentGoals, { key: Math.random().toString()}]);
+    setCourseGoals(currentGoals => [...currentGoals, 
+      { key: Math.random().toString(), value: enteredGoal}
+    ]);
   };
 
   return (
@@ -33,12 +35,15 @@ export default function App() {
       <FlatList 
       data={courseGoals}  
       renderItem={itemData => (
-        <View key={goal} style={styles.listItem} >
-         <Text>{goal}</Text>
+        <View style={styles.listItem} >
+         <Text>{itemData.item}</Text>
      </View>
   )}
   />
   </View>
+  );
+      }
+
 
 const styles = StyleSheet.create({
   screen: {
