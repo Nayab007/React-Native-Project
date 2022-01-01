@@ -1,6 +1,12 @@
 import React, {useState} from 'react';
 
-import { StyleSheet, Text, View, Button, TextInput, ScrollView } from 'react-native';
+import { StyleSheet, 
+  Text, 
+  View, 
+  Button, 
+  TextInput, 
+  ScrollView,
+FlatList } from 'react-native';
 
 export default function App() {
   const [ enteredGoal, setEnteredGoal] = useState('');
