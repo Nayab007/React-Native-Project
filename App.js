@@ -26,7 +26,7 @@ export default function App() {
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
         <TextInput 
-        placeholder="Course Goal" 
+        placeholder="Couse Goal" 
         style={styles.input}
         onChangeText={goalInputHandler} />
 
