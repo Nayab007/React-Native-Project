@@ -8,6 +8,8 @@ import { StyleSheet,
   ScrollView,
 FlatList } from 'react-native';
 
+import GoaItem from './components/GoalItem';
+
 export default function App() {
   const [ enteredGoal, setEnteredGoal] = useState('');
   const [courseGoals, setCourseGoals] = useState([]);
@@ -35,7 +37,7 @@ export default function App() {
       <FlatList 
         keyExtractor={(item, index) => item.id}
       data={courseGoals}  
-      renderItem={itemData => ()
+      renderItem={itemData => <GoalItem />
         
   }
   />
