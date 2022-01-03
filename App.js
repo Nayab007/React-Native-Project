@@ -36,9 +36,7 @@ export default function App() {
         keyExtractor={(item, index) => item.id}
       data={courseGoals}  
       renderItem={itemData => (
-        <View style={styles.listItem} >
-         <Text>{itemData.item.value}</Text>
-     </View>
+        
   )}
   />
   </View>
