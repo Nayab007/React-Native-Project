@@ -35,9 +35,9 @@ export default function App() {
       <FlatList 
         keyExtractor={(item, index) => item.id}
       data={courseGoals}  
-      renderItem={itemData => (
+      renderItem={itemData => ()
         
-  )}
+  }
   />
   </View>
   );
@@ -62,11 +62,5 @@ const styles = StyleSheet.create({
     
   },
 
-  listItem : {
-    padding: 10,
-    marginVertical: 10,
-    backgroundColor: '#ccc',
-    borderColor: 'black',
-    borderWidth: 1
-  }
+ 
 });
