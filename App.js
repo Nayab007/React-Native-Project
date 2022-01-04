@@ -26,14 +26,7 @@ export default function App() {
 
   return (
     <View style={styles.screen}>
-      <View style={styles.inputContainer}>
-        <TextInput 
-        placeholder="Course Goal" 
-        style={styles.input}
-        onChangeText={goalInputHandler} />
-
-        <Button title="ADD" onPress={addGoalHandler}/>
-      </View>
+      
       <FlatList 
         keyExtractor={(item, index) => item.id}
       data={courseGoals}  
