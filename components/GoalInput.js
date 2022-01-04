@@ -1,4 +1,5 @@
 import React from 'react';
+import { View, } from 'react-native';
 
 const GoalInput = props => {
     return (
@@ -12,5 +13,8 @@ const GoalInput = props => {
       </View>
     );
 };
+
+
+const styles = StyleSheet.create({});
 
 export default GoalInput;
