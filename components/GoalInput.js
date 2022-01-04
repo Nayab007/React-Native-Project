@@ -12,3 +12,5 @@ const GoalInput = props => {
       </View>
     );
 };
+
+export default GoalInput;
