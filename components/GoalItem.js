@@ -1,10 +1,11 @@
 import React from 'react';
 
 import { View,Text, StyleSheet, TouchableOpacity} from 'react-native'
+import { BoolifiedDeprecatedTextStylePropTypes } from 'react-native/Libraries/Components/View/ReactNativeStyleAttributes';
 
 const GoalItem = props => {
     return (
-        <TouchableOpacity>
+        <TouchableOpacity onPress={props.onDelete}>
         <View style={styles.listItem} >
         <Text>{props.title}</Text>
     </View>
