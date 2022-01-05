@@ -1,6 +1,6 @@
 import React from 'react';
-import { View } from 'react-native-web';
-import { View,Text, StyleSheet} from 'react-native-web'
+
+import { View,Text, StyleSheet} from 'react-native'
 
 const GoalItem = props => {
     return (
