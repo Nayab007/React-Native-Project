@@ -18,7 +18,7 @@ export default function App() {
   const [courseGoals, setCourseGoals] = useState([]);
 
   const addGoalHandler = goalTitle => {
-    setCourseGoals((currentGoals) => [
+    setCoursegoals((currentGoals) => [
       ...currentGoals,
       { id: Math.random().toString(), value: goalTitle },
     ]);
