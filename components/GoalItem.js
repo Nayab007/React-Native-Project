@@ -15,7 +15,7 @@ const GoalItem = props => {
 
 const styles = StyleSheet.create({
     listItem : {
-        padding: 12,
+        padding: 10,
         marginVertical: 10,
         backgroundColor: '#ffcc80',
         borderColor: '#000000',
