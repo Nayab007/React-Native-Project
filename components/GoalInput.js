@@ -39,15 +39,17 @@ const styles = StyleSheet.create({
       },
     
       input: {
-        width: '75%',
+        width: '80%',
         borderColor: 'black',
-        borderWidth: 2,
+        borderWidth: 1,
         padding: 10,
         marginBottom: 10,
       },
       buttonContainer: {
+      
         flexDirection: 'row',
         justifyContent: 'space-between',
+        width: '60%',
       }
 });
 
