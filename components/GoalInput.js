@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
       },
     
       input: {
-        width: '70%',
+        width: '77%',
         borderColor: 'black',
         borderWidth: 1,
         padding: 10,
