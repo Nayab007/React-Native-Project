@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
       },
 
       button: {
-        width: '40%'
+        width: '42%'
       }
 });
 
