@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { StyleSheet, View, Button, FlatList } from 'react-native';
+import SliderNativeComponent from 'react-native/Libraries/Components/Slider/SliderNativeComponent';
 
 import GoalInput from './components/GoalInput';
 import GoalItem from './components/GoalItem';
@@ -58,5 +59,6 @@ export default function App() {
 const styles = StyleSheet.create({
   screen: {
     padding: 70,
+    backgroundColor: '#facfe5', 
   },
 });
