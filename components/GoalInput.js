@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         width: '90%',
         borderColor: '#209fe3',
         borderWidth: 1,
-        padding: 10,
+        padding: 11,
         marginBottom: 10,
       },
       buttonContainer: {
